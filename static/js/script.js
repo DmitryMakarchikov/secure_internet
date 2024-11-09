@@ -268,7 +268,7 @@ document.addEventListener('DOMContentLoaded', function (){
         const resultHtml = `
             <p>Вы правильно ответили на ${correctAnswersCount} из ${tests.length} вопросов.</p>
             <h3 class="accent paragraph">${recomendate}</h3>
-            <div class="repeat__btn btn paragraph">пройти заного</div>
+            <div class="repeat__btn btn paragraph">пройти заново</div>
         `;
 
         testItems.innerHTML = resultHtml;
